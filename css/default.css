@@ -1,3 +1,20 @@
-h1 {
-  color: red;
+:root {
+  --white: #fff;
+  --black: #000;
+  --font-color-base:#666;
+  --font-color-dark:#212529;
+  --font-color-light:#b0aebe;
+  --font-color-link:#57A6FF;
+  --footer:#34314b;
+  --footer-base:#2e2b45;
+  --contrast:var(--font-color-light);
+  --sucess:#64ECF5;
+  --danger: #FF8B8D;
+  --grad-1: #A1ecFF;
+  --grad-2: #7dbcff;
 }
+
+h1 {
+  color:var(--font-color-base);
+}
+
