@@ -45,6 +45,15 @@
   padding: 4.6875rem 0;
 }
 
+.nav-link a {
+  color: var(--white);
+  font-size: 0.8125rem;
+  font-family: "Hind";
+  text-transform: uppercase;
+  margin-right: 2.5rem;
+  line-height: 1.25rem;
+ }
+
 .bg-header::before {
   background-image: linear-gradient( 30deg,
     rgba(21,27,38, 0.80) 0%,
@@ -60,11 +69,10 @@
   z-index: -1;
 }
 
-.nav-link a {
- color: var(--white);
- font-size: 0.8125rem;
- font-family: "Hind";
- text-transform: uppercase;
- margin-right: 2.5rem;
- line-height: 1.25rem;
+.hero-header {
+  color: var(--white);  
+}
+
+.hero-header a {
+
 }
