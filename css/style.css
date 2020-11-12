@@ -6,7 +6,7 @@
   left: 0;
   z-index: 500;
   transition: ease-in-out 0.3s;
-  padding: 1rem;
+  padding: var(--size-16);
 }
 
 
@@ -17,7 +17,7 @@
 
 .navbar-brand {
   margin-right: auto;
-  font-size: 2rem;
+  font-size: var(--size-30);
   font-weight: 700;
   width: 100%;
   transition: ease-in-out 0.3s;
@@ -42,16 +42,16 @@
   background-position: 50% 20%;
   position: relative;
   z-index: 1;
-  padding: 4.6875rem 0;
+  padding: var( --size-75) 0;
 }
 
 .nav-link a {
   color: var(--white);
-  font-size: 0.8125rem;
+  font-size: var(--size-14);
   font-family: "Hind";
   text-transform: uppercase;
-  margin-right: 2.5rem;
-  line-height: 1.25rem;
+  margin-right: var(--size-40);
+  line-height: var(--size-20);
  }
 
 .bg-header::before {
