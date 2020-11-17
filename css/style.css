@@ -73,6 +73,34 @@
   color: var(--white);  
 }
 
-.hero-header a {
+.why-me-wrapper {
+  display: flex;
+  align-items: center;
+}
 
+.why-me-wrapper div {
+  flex: 1;
+}
+
+.why-me{
+  padding: 150px 0;
+}
+
+.block-text {
+  padding-right: var(--size-50);
+}
+
+.block-text span {
+  color: var(--font-color-dark);
+  font-weight: 300;
+}
+
+.block-text h2 {
+  font-size: var(--size-40);  
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+  color: var(--font-color-dark);
+  margin-top: 0.75rem;
+  margin-bottom: 20px;
+  line-height: 1.3;
 }
