@@ -187,6 +187,15 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .block-text.pricing-header {
   text-align: center;
   padding-right: 0;
+  margin: var(--size-100) 0;
+}
+
+.pricing-table{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: var(--size-18);
+  margin: auto;
+  align-items: flex-start;
 }
 
 .price-card{
@@ -195,6 +204,14 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
   padding: var(--size-16);  
 }
 
+.price-card .checked { color: var(--success); }
+.price-card .times { color: var(--danger); }
+
+.price-card.featured {
+  box-shadow: 0 10px 20px rgba(82, 179, 275, 0.2);
+  margin-top: -1rem;
+}
+ 
 .price-card h3{
   margin-top: var(--size-40);
     font-size: var(--size-18);
@@ -214,6 +231,13 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .price-card .price,
 .price-card .billed { text-align: center;}
 
-.price-card li { margin-bottom: var(--size-10); }
+.price-card li { margin-bottom: var(--size-20); }
 
-.price-card .icon {float: right;}
+.price-card .icon {
+  float: right;
+  font-weight: 600;
+}
+
+.plan-btn-wrapper {
+  text-align: center;
+}
