@@ -112,6 +112,9 @@ img {
   .container {max-width: 1140px;}
 }
 
+@media (min-width: 768px) {
+  .pricing-table {max-width: 720px;}  
+}
 
 
 
