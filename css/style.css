@@ -323,3 +323,32 @@ footer .bottom-footer-background {
 footer .top-footer-background{
   background-color: var(--footer);
 }
+
+footer .footer-col {
+  justify-self: center;
+}
+
+.footer-top h5 {
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: var(--size-16);
+
+}
+
+.contact-info li {
+  color: var(--white);
+  margin-bottom: var(--size-10);
+}
+
+.contact-info i {  width: var(--size-30); }
+
+.social-icons ul li {
+  display: inline-block;
+  margin-right: 10px;  
+}
+
+
+.social-icons ul li a {
+  color: var(--white);
+  font-size: var(--size-16);
+}
