@@ -275,6 +275,12 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
   margin-right: var(--size-20);
 }
 
+.testimonial-card.lg .quote{
+  width: 70px;
+  float:right;
+  margin-top: 10px;
+}
+
 .testimonial-card.med .bottom p{ font-size: var(--size-14); }
 
 .testimonial-card .top {
