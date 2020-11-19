@@ -114,6 +114,7 @@ img {
 
 @media (min-width: 768px) {
   .pricing-table {max-width: 720px;}  
+  .testimonial-grid {max-width: 720px;}
 }
 
 
