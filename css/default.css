@@ -28,6 +28,10 @@
   --size-150: 9.375rem;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
   color:var(--font-color-base);
 }
