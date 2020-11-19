@@ -121,5 +121,12 @@ img {
   .testimonial-grid {max-width: 720px;}
 }
 
+.services-wrapper p{
+  color: #858497;
+}
 
+.recent-posts {
+  display: flex;
+  margin-bottom: var(--size-16);
+}
 

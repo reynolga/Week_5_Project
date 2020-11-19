@@ -352,3 +352,22 @@ footer .footer-col {
   color: var(--white);
   font-size: var(--size-16);
 }
+
+.recent-posts .post-image-wrapper{
+  width: var(--size-100); 
+  margin-right: var(--size-10);
+}
+
+
+.class-inner h6{
+  margin: 0; 
+}
+.class-inner a {   
+  color: var(--white);
+  font-weight: 600;   
+}
+
+.class-inner span {
+  color: var(--font-color-light);
+    font-size: var(--size-10);
+}
