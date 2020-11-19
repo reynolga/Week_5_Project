@@ -371,3 +371,26 @@ footer .footer-col {
   color: var(--font-color-light);
     font-size: var(--size-10);
 }
+
+.copyright p {
+  color: var(--font-color-light);
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-width: 768px;
+  padding: var(--size-16) 0; 
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-bottom-links ul li {
+  display: inline-block;
+  color: var(--white);
+  margin: 0 5px;
+}
+
+.footer-bottom-links ul li a{
+  color: var(--white);
+}
