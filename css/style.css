@@ -362,6 +362,7 @@ footer .footer-col {
 .class-inner h6{
   margin: 0; 
 }
+
 .class-inner a {   
   color: var(--white);
   font-weight: 600;   
@@ -409,4 +410,58 @@ footer .footer-col {
   text-align: center;
   color: white;
   z-index: 100;
+}
+
+
+#contactUs {
+  background-color: #357dfb;
+  position: fixed;
+  margin: 0 auto;
+  display: flex;  
+  align-items: center;
+  width: 700px;
+  left: 50%;
+  height: 75px;
+  transform: translateX(-50%);    
+  bottom: var(--size-30);
+  right: var(--size-30);
+  z-index: 100;
+  border-radius: 2px;
+}
+
+
+#contactUs h4 {
+  margin: 0 0;
+  color: var(--white);
+}
+
+#contactUs p {
+  white-space: nowrap;
+  margin: 0 auto;
+  color: var(--white);
+  font-weight: 200;
+}
+
+#contactUs .img-wrapper {
+  max-height: 75px;
+  width: 160px;
+  box-sizing: border-box;
+}
+
+#contactUs .contact-us-text{
+  margin-right: auto;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+ 
+
+
+.contact-us-btn {
+  text-align: center;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  background-color: var(--white);  
+  font-weight: 700;
 }
