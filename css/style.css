@@ -359,6 +359,7 @@ footer .top-footer-background{
 
 footer .footer-col {
   justify-self: center;
+  max-width: 215px;
 }
 
 footer .container {
