@@ -45,7 +45,10 @@
   padding: var( --size-75) 0;
 }
 
-.bg-header {  background-image: url("../assets/img/bg-header-1.jpg"); }
+.bg-header {  
+  background-image: url("../assets/img/bg-header-1.jpg"); 
+  padding: var( --size-150) 0;
+}
 .video-demo{  background-image: url("../assets/img/bg-demo.jpg"); }
 
 .nav-link a {
@@ -89,8 +92,9 @@
   padding: 150px 0;
 }
 
-.block-text {
-  padding-right: var(--size-50);
+.why-me .block-text {
+  padding-right: var(--size-100);
+  max-width: 35rem;
 }
 
 .block-text span {
@@ -154,7 +158,8 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 
 .video-demo .block-text h2, 
 .video-demo .block-text p {
-  color: var(--white);
+  color: var(--white);  
+  margin: var(--size-50) 0;
 } 
 
 .video-box {
@@ -201,7 +206,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .price-card{
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);  
+  padding: var(--size-40) var(--size-16);
 }
 
 .price-card .checked { color: var(--success); }
@@ -239,7 +244,11 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 }
 
 .plan-btn-wrapper {
-  text-align: center;
+  text-align: center;  
+}
+
+.plan-btn-wrapper a {
+  width: 100%;
 }
 
 .testimonials .block-text{
@@ -309,6 +318,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
   line-height: 1.6;
 }
 
+
 footer .footer-top{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -328,12 +338,20 @@ footer .footer-col {
   justify-self: center;
 }
 
+footer .container {
+  max-width: 1140px;
+}
+
 .footer-top h5 {
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
-
 }
+
+.services-wrapper h5 {
+  margin-bottom: initial;
+}
+
 
 .contact-info li {
   color: var(--white);
@@ -361,6 +379,7 @@ footer .footer-col {
 
 .class-inner h6{
   margin: 0; 
+  font-size: 0.75rem;
 }
 
 .class-inner a {   
@@ -375,6 +394,12 @@ footer .footer-col {
 
 .copyright p {
   color: var(--font-color-light);
+}
+
+.footer-top h5 {
+  color: var(--white);
+  font-size: var(--size-20);
+  font-weight: 500;
 }
 
 .footer-bottom-wrapper {
@@ -454,8 +479,6 @@ footer .footer-col {
   padding-left: 10px;
 }
  
-
-
 .contact-us-btn {
   text-align: center;
   color: black;
@@ -465,3 +488,5 @@ footer .footer-col {
   background-color: var(--white);  
   font-weight: 700;
 }
+
+
