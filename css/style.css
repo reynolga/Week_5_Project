@@ -468,7 +468,7 @@ footer .container {
   margin: 0 auto;
   display: flex;  
   align-items: center;
-  width: 700px;
+  width: 600px;
   left: 50%;
   height: 75px;
   transform: translateX(-50%);    
@@ -500,7 +500,7 @@ footer .container {
 #contactUs .contact-us-text{
   margin-right: auto;
   margin-left: 15px;
-  padding-left: 10px;
+  padding-left: 10px;  
 }
  
 .contact-us-btn {
@@ -511,6 +511,7 @@ footer .container {
   margin-right: 15px;
   background-color: var(--white);  
   font-weight: 700;
+  white-space: nowrap;
 }
 
 
