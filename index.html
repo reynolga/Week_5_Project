@@ -390,5 +390,14 @@
       <a class="contact-us-btn" href="">Contact us</a>
   </div>
 
+  <script>
+    const navButton = document.querySelector('button[aria-expanded]');
+    function toggleNav({target}) {
+       const expanded = navButton.getAttribute('aria-expanded') === 'true';
+       navButton.setAttribute('aria-expanded', !expanded);
+    }
+
+    navButton.addEventListener('click', toggleNav);
+  </script>
 </body>
 </html>

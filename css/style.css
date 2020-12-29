@@ -9,6 +9,20 @@
   padding: var(--size-16);
 }
 
+.navbar-toggler {
+  display: block;
+    position: absolute;
+    right: var(--size-20);
+    outline: none;
+    background-color: transparent;
+    border: 1px solid transparent; 
+}
+
+.navbar-toggler span{
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+}
 
 .navbar .container {
   display: flex;  
@@ -24,8 +38,7 @@
   color: var(--white);  
 }
 
-[aria-controls="navbarDropdown"]
-{
+[aria-controls="navbarDropdown"]{
   display: none;
 }
 
